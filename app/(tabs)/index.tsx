@@ -84,7 +84,7 @@ export default function Index() {
         link.href = dataUrl;
         link.click();
       } catch (e) {
-        console.error('Error on  Save  ImageAsync: on web', e);
+        console.error('Error on Save ImageAsync: on web', e);
 
       }
     };
